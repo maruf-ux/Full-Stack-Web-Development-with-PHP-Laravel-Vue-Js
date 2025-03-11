@@ -13,7 +13,7 @@ $password = readline();
 if (empty($username) || empty($password)) {
     echo "Please fill up the credentials";
 } else {
-    if ($username == USERNAME && $password == $password) {
+    if ($username == USERNAME && $password == PASSWORD) {
         echo "Log in Successful";
     } else {
         echo "Login failed , please check username or password";
